@@ -10,12 +10,12 @@ module Memorable
 
   class Artist
     extend reset_all
-    extend all.count
+    extend count
   end
 
   class Song
     extend reset_all
-    extend all.count
+    extend count
   end
 
 end
