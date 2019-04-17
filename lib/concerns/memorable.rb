@@ -13,7 +13,9 @@ module Memorable
     extend self.all.count
   end
 
-  class Artist
-    extend
+  class Song
+    extend self.reset_all
+    extend self.all.count
+  end
 
 end
