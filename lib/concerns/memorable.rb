@@ -10,6 +10,10 @@ module Memorable
 
   class Artist
     extend self.reset_all
+    extend self.all.count
   end
+
+  class Artist
+    extend
 
 end
