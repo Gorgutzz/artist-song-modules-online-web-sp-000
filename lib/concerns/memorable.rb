@@ -8,4 +8,8 @@ module Memorable
     self.all.count
   end
 
+  class Artist
+    extend self.reset_all
+  end
+
 end
